@@ -1,9 +1,12 @@
 IVS_SelectionAccuracy
 =====================
 
-R code to compute the selection accuracy metrics recommended for evaluating input variable selection (IVS) methods under the framework proposed in:
+R code to compute the selection accuracy metrics recommended for evaluating input variable selection (IVS) methods under the IVS4EM framework proposed in:
 
-Galelli, S., G.B. Humphrey, H.R. Maier, A. Castelletti, G.C. Dandy and M.S. Gibbs (under review), An evaluation framework for input variable selection algorithms for environmental data-driven models, Environmental Modelling & Software.
+Galelli S., Humphrey G.B., Maier H.R., Castelletti A., Dandy G.C. and Gibbs M.S. (2014)  An evaluation framework for input variable selection algorithms for environmental data-driven models, *Environmental Modelling and Software*, 62, 33-51, DOI: 10.1016/j.envsoft.2014.08.015. ([Link to Paper](http://www.sciencedirect.com/science/article/pii/S1364815214002394))
+
+The purpose of the IVS4EM project is to support a comprehensive framework for the testing and evaluation of IVS algorithms, through the sharing of algorithms (open source code), datasets, and evalution criteria. ([Link to IVS4EM Website](http://ivs4em.deib.polimi.it/))
+
 
 The recommended selection accuracy (SA) score expresses the degree to which a selected input subset matches the true input subset. This score is given as follows:
 
